@@ -1,7 +1,7 @@
 # Custom random emoji prompt
 HOST_NAME=elias
 
-emojis=("🍣" "🥚" "🥐" "🍔" "🍕" "🍤" "🍟" "🥝" "🍍" "🍉" "🍺" "🥥" "🥬" "🥯" "🍞" "🧋" "🥗" "🍖")
+emojis=("🍣" "🥚" "🥐" "🍔" "🍕" "🍤" "🍟" "🥝" "🍍" "🍉" "🍺" "🍞" "🥗" "🍖")
 
 EMOJI=${emojis[$RANDOM % ${#emojis[@]} ]}
 NEWLINE=$'\n'
